@@ -150,7 +150,7 @@ Retourne  : flotant
 
 
 
-Ex 5 (Bonus ex 3 bis)
+**Ex 5 (Bonus ex 3 bis)**
 
 Fonction faite sur mesure pour un tricheur.
 Avec la sympathique aide de Nico du studio Eko pour le i++.
