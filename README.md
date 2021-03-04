@@ -7,7 +7,7 @@ Langage : Python
 
 
 
-Ex 1 :
+**Ex 1 :**
 
 On a une fonction maxi qui prend une liste non vide comme argument.
 L'algorithme va créer une valeur maximale égale à la première valeur de la liste,
@@ -55,7 +55,7 @@ Version Bis sans _max :
 
 
 
-Ex 2 :
+**Ex 2 :**
 
 On a une fonction rechercheMinMax qui prend une liste comme argument.
 L'algorithme va créer une valeur maximum et minimum égales à la première valeur de la liste,
@@ -89,7 +89,7 @@ Retourne : dictionnaire
 
 
 
-Ex 3 :
+**Ex 3 :**
 
 On a une fonction recherche qui prend une liste non vide et un entier comme arguments.
 L'algorithme va créer une valeur égale à la longueur de la liste, puis va regarder 
@@ -120,7 +120,7 @@ Retourne  : entier
 
 
 
-Ex 4 :
+**Ex 4 :**
 
 On a une fonction moyenne qui prend une liste non vide comme argument.
 L'algorithme va créer une valeur égale à 0 qui sera le total, puis va ajouter chaque 
