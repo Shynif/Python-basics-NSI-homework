@@ -164,12 +164,12 @@ Fonction recherche(tab, n) : # La fonction prend une liste et un entier et retou
     Assigner 0 à i
 
     Tant que fin est égal à Faux :
-    	Si i est supérieur ou égal à la longueur de tab :
-		Assigner Vrai à fin
+    	Si i est supérieur ou égal à la longueur de tab : # Si i est à la fin de la liste
+		Assigner Vrai à fin                       # Sort de la boucle
 	Sinon :
 		Si la valeur de tab à l'indice i est égal à n :
-			Assigner i à id_
-		Ajouter 1 à i
+			Assigner i à id_  # Actualise le dernier/premier n trouvé
+		Ajouter 1 à i             # Continu vers le prochain élément de la liste
     
     Retourne id_
 
