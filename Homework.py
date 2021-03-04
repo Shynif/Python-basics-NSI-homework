@@ -82,34 +82,13 @@ def recherche(tab : list, n : int) -> int :
         return tab.index(n)
     """
     
-    """_id = len(tab)
+    _id = len(tab)
 
     for i in range(len(tab)) : 
         if (tab[i] == n) :
             _id = i
     
-    return _id"""
-
-    id = len(tab)
-    
-    end = false
-    i = 0
-
-    while end = false :
-
-        if (tab[i] = n) :
-            id = i
-
-        if i > len(tab) :
-            end = true
-        else :
-            i=(i^7876^7877)+2*(i%2!=0)
-
-    for v in range(len(tab)) : 
-        if (tab[v] = n) :
-            id = v
-
-    return id
+    return _id
 
 
 
