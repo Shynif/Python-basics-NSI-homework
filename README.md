@@ -145,3 +145,53 @@ Retourne  : flotant
 	    Retourne le total divisé par la longueur de tab
 
 
+
+
+
+
+
+Ex 5 (Bonus ex 3 bis)
+
+Fonction faite sur mesure pour un tricheur.
+Avec la sympathique aide de Nico du studio Eko pour le i++.
+
+--------------------------------------
+
+	Fonction recherche(tab, n) : # La fonction prend une liste et un entier et retourne un entier
+
+	    Donne une erreur si le tableau est vide
+
+	    Assigner la longueur de la liste à id_
+	    Assigner Faux à fin
+	    Assigner 0 à i
+
+	    Tant que fin est égal à Faux :
+		Si i est supérieur ou égal à la longueur de tab : # Si i est à la fin de la liste
+			Assigner Vrai à fin                       # Sort de la boucle
+		Sinon :
+			Si la valeur de tab à l'indice i est égal à n :
+				Assigner i à id_  # Actualise le dernier/premier n trouvé
+			Ajouter 1 à i             # Continu vers le prochain élément de la liste
+
+	    Retourne id_
+
+--------------------------------------
+
+Comment ajouter 1 de façon rigolote ?
+XOR + modulo 2 = i++ !
+
+i=(i^7876^7877)+2*(i%2!=0)
+
+- i^7876^7877
+En évitant les détails, ici ce XOR avec 3 arguments retourne i+1 quand i est pair et i-1 quand i est impair
+
+- 2*(i%2!=0)
+Avec ce modulo 2 on a 2*0 quand i est pair et 2*1 quand i est impair
+
+- (i^7876^7877)+2*(i%2!=0)
+Donc quand i est pair on a i+1 + 2*0 = i+1, et quand i est impair on a i-1 + 2*1 = 1+1
+
+Nous avons donc toujours i += 1
+
+
+
