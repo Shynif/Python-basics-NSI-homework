@@ -187,7 +187,7 @@ En évitant les détails, ici ce XOR avec 3 arguments retourne i+1 quand i est p
 Avec ce modulo 2 on a 2*0 quand i est pair et 2*1 quand i est impair
 
 - (i^7876^7877)+2*(i%2!=0)
-Donc quand i est pair on a i+1 + 2*0 = i+1, et quand i est impair on a i-1 + 2*1 = 1+1
+Donc quand i est pair on a i+1 + 2*0 = i+1, et quand i est impair on a i-1 + 2*1 = i+1
 
 Nous avons donc toujours i += 1
 
